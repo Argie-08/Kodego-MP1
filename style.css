@@ -1,0 +1,475 @@
+* {
+  /* border: dotted 1px red; */
+}
+html,
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+.navcolor {
+  background-color: #0c2d57;
+}
+.navbar img {
+  height: 50px;
+}
+.container1 {
+  min-height: 400px;
+}
+.carousel-item img {
+  height: 500px;
+  object-fit: cover;
+}
+.container2 {
+  height: 50vh;
+}
+.overlay {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.navtext {
+  font-size: clamp(5px, 1.2vw, 15px);
+}
+.container1a h6 {
+  font-size: clamp(10px, 1.2vw, 20px);
+}
+.container1a h5 {
+  font-size: clamp(20px, 4vw, 70px);
+}
+.recentadd {
+  font-size: clamp(10px, 2vw, 20px);
+}
+.recentadd2 {
+  font-size: clamp(10px, 2vw, 30px);
+}
+.recentadd-brand3 {
+  font-size: clamp(5px, 1.2vw, 15px);
+}
+.recentadd-brand {
+  font-size: clamp(10px, 2vw, 18px);
+}
+.recentadd-brand2 {
+  font-size: clamp(10px, 2vw, 15px);
+}
+.motocard {
+  border: #0c2c574b solid 1px;
+  border-radius: 10px;
+  transition: 0.5s;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.motocard:hover,
+.motocard:focus,
+.motocard:active {
+  transform: scale(1.05);
+  border: #0c2d57 solid 1px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+.fontprice {
+  font-size: clamp(5px, 1.2vw, 15px);
+}
+.font-location,
+.font-model {
+  font-size: clamp(5px, 1.2vw, 12px);
+}
+.btnbtn {
+  font-size: clamp(2px, 1.2vw, 15px);
+}
+
+.card-body h6,
+.text-success {
+  font-size: clamp(5px, 1.2vw, 15px);
+}
+.cardtitle1 {
+  font-size: clamp(5px, 1.5vw, 15px);
+}
+.cardheight {
+  height: 10px;
+}
+.featured img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.body-bg img {
+  height: 100%;
+}
+.featured h4 {
+  font-size: clamp(5px, 1.5vw, 25px);
+}
+.featured p {
+  font-size: clamp(5px, 1.5vw, 15px);
+}
+.featured button {
+  font-size: clamp(5px, 1.5vw, 15px);
+}
+.gallery-flex {
+  height: 75vh;
+}
+.highlight {
+  cursor: pointer;
+  transition: 0.5s;
+}
+.highlight:hover {
+  transform: scale(1.05);
+}
+
+.featured-mb {
+  margin-bottom: 150px;
+}
+.carousel-check img {
+  height: auto;
+}
+.mostviewed p {
+  font-size: clamp(5px, 1.5vw, 15px);
+}
+.iconthumb {
+  font-size: clamp(5px, 1.5vw, 15px);
+}
+.mostviewed-text {
+  font-size: clamp(4px, 1.5vw, 12px);
+  text-decoration: none;
+}
+.thumb-deco {
+  text-decoration: none;
+}
+.mostviewed {
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.5s;
+}
+.mostviewed:hover {
+  box-shadow: 8px 8px 30px #888888;
+}
+.bottom-sec p {
+  color: #ce542b;
+}
+.bottom-sec .p2 {
+  color: #025ace;
+}
+.footer1 {
+  text-decoration: none;
+  color: rgb(56, 56, 56);
+  width: fit-content;
+  position: relative;
+}
+.footer1::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  background-color: #025ace;
+  height: 2px;
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: 0.5s;
+}
+.footer1:hover::before {
+  transform: scaleX(1);
+}
+.footer-text {
+  font-size: clamp(5px, 1.2vw, 12px);
+}
+.fa-brands {
+  color: rgb(68, 68, 68);
+  transition: 0.5s;
+}
+.fa-brands:hover {
+  color: rgb(12, 12, 12);
+}
+.logonew img {
+  object-fit: cover;
+}
+.line {
+  width: 100%;
+  background-color: #ffffff;
+  height: 2px;
+}
+.loginform {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.loginback {
+  background-image: url(./Riders/rider.jpg);
+}
+.forgotps {
+  color: rgb(252, 250, 248);
+  transition: 0.2s;
+  font-size: clamp(5px, 1.2vw, 15px);
+}
+.forgotps:hover {
+  color: #025ace;
+}
+.termscond {
+  font-size: clamp(2px, 1.5vw, 12px);
+}
+.top1 img {
+  height: 50px;
+}
+.ddown {
+  width: fit-content;
+}
+.item-kawasaki {
+  object-fit: cover;
+}
+.item-kawasaki img {
+  height: fit-content;
+}
+.item-kawasaki .unit {
+  font-size: clamp(4px, 1.2vw, 12px);
+}
+.item-kawasaki .price {
+  font-size: clamp(7px, 1.2vw, 20px);
+}
+.item-kawasaki .details {
+  font-size: clamp(4px, 1.2vw, 12px);
+}
+.addcart {
+  text-decoration: none;
+}
+.itemsmodal img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+}
+.itemsmodal .seller {
+  width: fit-content;
+}
+.itemsmodal .d-block {
+  height: 250px;
+  width: 100%;
+}
+.itemsmodal .mrtext {
+  font-size: clamp(4px, 1.2vw, 12px);
+}
+.clear-pointer {
+  cursor: pointer;
+}
+.button-upload {
+  width: fit-content;
+}
+.item-top {
+  font-size: clamp(10px, 2vw, 15px);
+}
+.item-top a {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+}
+.item-top a:hover {
+  color: rgb(41, 90, 41);
+  text-decoration: underline;
+}
+.item-body img {
+  object-fit: cover;
+}
+.item-body .test {
+  overflow: hidden;
+  object-fit: cover;
+}
+.seller-active {
+  width: fit-content;
+}
+.item-bg {
+  height: fit-content;
+}
+.moto-logo {
+  height: clamp(10px, 8vw, 100px);
+}
+.moto-star {
+  height: clamp(5px, 1.2vw, 20px);
+}
+.gallery-margin h4 {
+  font-size: clamp(10px, 1.5vw, 30px);
+}
+
+.footer-font h3,
+.footer-font p,
+.footer-font a {
+  font-size: clamp(5px, 2vw, 15px);
+}
+.modal-bg {
+  background-color: rgb(250, 250, 250, 1);
+}
+.modal-text {
+  color: rgb(0, 0, 0);
+}
+.modal-underline {
+  text-decoration: none;
+}
+.log-out {
+  position: relative;
+}
+.log-out::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  content: "Log Out";
+  background-color: #1c1c1d;
+  color: white;
+  transition: 0.3s;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.log-out:hover::before {
+  transform: scaleY(1);
+}
+.button-full-gallery {
+  font-size: clamp(5px, 1.2vw, 20px);
+}
+@media screen and (max-width: 575px) {
+  .gallery-margin {
+    bottom: 50px;
+  }
+  .featured-image {
+    top: 50px;
+  }
+  .featured-mb {
+    margin-bottom: 70px;
+  }
+  .next-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .button-full-gallery {
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  .item-kawasaki-mt {
+    margin-top: 15px;
+  }
+  .item-kawasaki-mt2 {
+    margin-top: 5px;
+  }
+  .featured-top {
+    bottom: 610px;
+  }
+}
+@media screen and (min-width: 576px) {
+  .button-full-gallery {
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+  .gallery-margin {
+    bottom: 40px;
+  }
+  .featured-image {
+    top: 100px;
+  }
+  .featured-mb {
+    margin-bottom: 90px;
+  }
+  .next-icon {
+    width: 1rem;
+    height: 1rem;
+  }
+  .item-kawasaki-mt {
+    margin-top: 20px;
+  }
+  .item-kawasaki-mt2 {
+    margin-top: 8px;
+  }
+  .featured-top {
+    bottom: 560px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .button-full-gallery {
+    margin-top: 15px;
+  }
+  .featured-image {
+    top: 120px;
+  }
+  .featured-mb {
+    margin-bottom: 100px;
+  }
+  .item-kawasaki-mt {
+    margin-top: 25px;
+  }
+  .item-kawasaki-mt2 {
+    margin-top: 10px;
+  }
+  .featured-top {
+    bottom: 535px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .gallery-margin {
+    bottom: 40px;
+  }
+  .button-full-gallery {
+    margin-top: 20px;
+  }
+  .featured-image {
+    top: 190px;
+  }
+  .featured-mb {
+    margin-bottom: 130px;
+  }
+  .next-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .item-kawasaki-mt {
+    margin-top: 30px;
+  }
+  .item-kawasaki-mt2 {
+    margin-top: 20px;
+  }
+  .featured-top {
+    bottom: 480px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .gallery-margin {
+    bottom: 30px;
+  }
+  .button-full-gallery {
+    margin-top: 25px;
+  }
+  .featured-image {
+    top: 230px;
+  }
+  .featured-mb {
+    margin-bottom: 160px;
+  }
+  .item-kawasaki-mt {
+    margin-top: 40px;
+  }
+  .item-kawasaki-mt2 {
+    margin-top: 30px;
+  }
+  .featured-top {
+    bottom: 440px;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .gallery-margin {
+    bottom: 10px;
+    height: 180px;
+  }
+  .button-full-gallery {
+    margin-top: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .featured-image {
+    top: 400px;
+  }
+  .featured-top {
+    top: 370px;
+  }
+}
